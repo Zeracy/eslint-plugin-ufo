@@ -1,0 +1,48 @@
+{
+    "name": "eslint-plugin-ufo",
+    "version": "1.0.0",
+    "author": "Zeracy",
+    "description": "Linting rules for ESLint based on my team's (UFO) specific use case.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./",
+        "pretest": "npm run lint",
+        "test": "npm run unit-test"
+    },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "index.js",
+        "eslint.js",
+        ".gitignore",
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zeracy/eslint-plugin-ufo"
+    },
+    "homepage": "https://github.com/Zeracy/eslint-plugin-ufo",
+    "bugs": "https://github.com/Zeracy/eslint-plugin-ufo/issues",
+    "peerDependencies": {
+        "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jest": "^22.2.2",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-react": "^7.12.4",
+        "eslint-plugin-standard": "^4.0.0"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-plugin",
+        "eslintplugin",
+        "preact",
+        "jsx",
+        "react"
+    ]
+}
